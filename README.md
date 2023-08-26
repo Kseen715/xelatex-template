@@ -9,6 +9,8 @@
 Before build of the PDF file you need to add `sign.png` (800x800) file with your signature. It would be displayed next to your name (*most of the time* it's allowed in BSTU).
 **Another solution** is to replace code that put sign on the page with `\vspace{}`
 
+For listings used slightly modified [gruvbox](https://github.com/morhetz/gruvbox)-light color scheme.
+
 ## Languages in lstlistings
 Tested:
   - C
