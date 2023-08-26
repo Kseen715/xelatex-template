@@ -1,0 +1,9 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{Пример абзаца}{3}{}%
+\contentsline {section}{Пример списка}{3}{}%
+\contentsline {section}{Пример нумерованного списка}{3}{}%
+\contentsline {section}{Пример кода}{3}{}%
+\contentsline {section}{Пример цитаты}{5}{}%
+\contentsline {section}{Пример рисунка}{5}{}%
+\contentsline {section}{Пример таблицы}{5}{}%
+\contentsline {section}{Приложения}{7}{}%
