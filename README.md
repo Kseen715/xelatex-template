@@ -11,6 +11,13 @@ Before build of the PDF file you need to add `sign.png` (800x800) file with your
 
 For listings used slightly modified [gruvbox](https://github.com/morhetz/gruvbox)-light color scheme.
 
+Page parameters:
+  - Main font - Times New Roman, 14pt
+  - Listings font - Cascadia Code, 9pt
+  - Parindent - 1.25
+  - Linespred - 1.3
+  - Page indents - left=3cm, right=1.5cm, top=2cm, bottom=2cm, headsep=1cm, footskip=1cm
+
 ## Languages in lstlistings
 Tested:
   - C
