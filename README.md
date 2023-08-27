@@ -119,11 +119,11 @@ Run script `tex-setup.sh`. It will delete git files (and itself) and will allow 
 
 ## Screenshots
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-1.png" />
-  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-2.png" />
-  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-3.png" />
-  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-4.png" />
-  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-5.png" />
-  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-6.png" />
-  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-7.png" />
+  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-1.png" width=700"/>
+  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-2.png" width=700/>
+  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-3.png" width=700/>
+  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-4.png" width=700/>
+  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-5.png" width=700/>
+  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-6.png" width=700/>
+  <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-7.png" width=700/>
 </p>
