@@ -22,9 +22,9 @@ Page parameters:
 Tested:
   - C
   - C++
-  - C# (custom: CSharp)
+  - C# (custom, name: CSharp)
   - Python
-  - Rust (custom: Rust)
+  - Rust (custom, name: Rust)
 
 <details>
 <summary>Theoretically supported:</summary>
