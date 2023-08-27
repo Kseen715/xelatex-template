@@ -110,6 +110,13 @@ Tested:
   - XSLT
 </details>
 
+## Setting up
+### Windows
+To set up this template simpy run script `tex-setup.ps1`. It will delete git files (and itself) and will allow to put `.tex` directly into your own repo.
+
+### Linux
+Run script `tex-setup.sh`. It will delete git files (and itself) and will allow to put `.tex` directly into your own repo.
+
 ## Screenshots
 <p align="center">
   <img src="https://raw.githubusercontent.com/Kseen715/imgs/main/xelatex-template-1.png" />
