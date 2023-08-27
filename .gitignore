@@ -2,4 +2,5 @@
 *.synctex.gz
 *.log
 *.aux
+*.toc
 sign.png
