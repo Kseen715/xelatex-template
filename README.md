@@ -15,7 +15,7 @@ Page parameters:
   - Main font - Times New Roman, 14pt
   - Listings font - Cascadia Code, 9pt
   - Parindent - 1.25
-  - Linespred - 1.3
+  - Linespread - 1.3
   - Page indents - left=3cm, right=1.5cm, top=2cm, bottom=2cm, headsep=1cm, footskip=1cm
 
 ## Languages in lstlistings
