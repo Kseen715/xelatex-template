@@ -137,6 +137,70 @@
             enum,  namespace,  string}
 }
 % 
+% Язык ASM для listings
+\lstdefinelanguage{ASM}
+{
+        morecomment = [l]{;},
+        sensitive = true,
+        alsoletter={.}, % allow dots in keywords
+        alsodigit={0x}, % hex numbers are numbers too!
+        morestring=[b]", % mark " as string start/end
+        morestring=[b]', % also mark ' as string start/end
+        morekeywords=[1]{ % instructions
+                        lb, lh, lw, lbu, lhu,
+                        sb, sh, sw,
+                        sll, slli, srl, srli, sra, srai,
+                        add, addi, sub, lui, auipc,
+                        xor, xori, or, ori, and, andi,
+                        slt, slti, sltu, sltiu,
+                        beq, bne, blt, bge, bltu, bgeu,
+                        j, jr, jal, jalr, ret,
+                        scall, break, nop,
+                        % 8051 upper case instructions:
+                        ACALL, ADD, ADDC, AJMP, ANL, CJNE, CLR, CPL, DA,
+                        DEC, DIV, DJNZ, INC, JB, JBC, JC, JMP, JNB, JNC,
+                        JNZ, JZ, LCALL, LJMP, MOV, MOVC, MOVX, MUL, NOP,
+                        ORL, POP, PUSH, RET, RETI, RL, RLC, RR, RRC, SETB,
+                        SJMP, SUBB, SWAP, XCH, XCHD, XRL,
+                        ORG,
+                        % 8051 lower case instructions:
+                        acall, add, addc, ajmp, anl, cjne, clr, cpl, da,
+                        dec, div, djnz, inc, jb, jbc, jc, jmp, jnb, jnc,
+                        jnz, jz, lcall, ljmp, mov, movc, movx, mul, nop,
+                        orl, pop, push, ret, reti, rl, rlc, rr, rrc, setb,
+                        sjmp, subb, swap, xch, xchd, xrl,
+                        org,
+                },
+        morekeywords=[3]{ % registers
+                        zero, ra, sp, gp, tp, s0, fp,
+                        t0, t1, t2, t3, t4, t5, t6,
+                        s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11,
+                        a0, a1, a2, a3, a4, a5, a6, a7,
+                        ft0, ft1, ft2, ft3, ft4, ft5, ft6, ft7,
+                        fs0, fs1, fs2, fs3, fs4, fs5, fs6, fs7, fs8, fs9, fs10,
+                        fs11,
+                        fa0, fa1, fa2, fa3, fa4, fa5, fa6, fa7,
+                        % 8051 upper case registers:
+                        A, ACC, B, PSW, SP, DPL, DPH, P0, P1, P2, P3,
+                        R0, R1, R2, R3, R4, R5, R6, R7, PCON, TCON, TMOD,
+                        TL, TH, SCON, SBUF, IE, IP, SFR, DPTR,
+                        % 8051 lower case registers:
+                        a, acc, b, psw, sp, dpl, dph, p0, p1, p2, p3,
+                        r0, r1, r2, r3, r4, r5, r6, r7, pcon, tcon, tmod,
+                        tl, th, scon, sbuf, ie, ip, sfr, dptr,
+                        % 8051 upper case registers with @:
+                        @A, @ACC, @B, @PSW, @SP, @DPL, @DPH, @P0, @P1, @P2, @P3,
+                        @R0, @R1, @R2, @R3, @R4, @R5, @R6, @R7, @PCON, @TCON,
+                        @TMOD,
+                        @TL, @TH, @SCON, @SBUF, @IE, @IP, @SFR, @DPTR,
+                        % 8051 lower case registers with @:
+                        @a, @acc, @b, @psw, @sp, @dpl, @dph, @p0, @p1, @p2, @p3,
+                        @r0, @r1, @r2, @r3, @r4, @r5, @r6, @r7, @pcon, @tcon,
+                        @tmod,
+                        @tl, @th, @scon, @sbuf, @ie, @ip, @sfr, @dptr,
+                }
+}
+% 
 % Язык Rust для listings
 \lstdefinelanguage{Rust}{%
 sensitive%
