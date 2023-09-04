@@ -25,6 +25,7 @@ Tested:
   - C# (custom, name: CSharp)
   - Python
   - Rust (custom, name: Rust)
+  - ASM (custom, name: ASM)
 
 <details>
 <summary>Theoretically supported:</summary>
